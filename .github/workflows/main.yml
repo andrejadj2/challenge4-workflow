@@ -1,0 +1,7 @@
+on: push
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: andrejadj2/challenge4-custom_action@main
